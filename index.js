@@ -1196,6 +1196,14 @@ function A_1293() {
 function crwhatsapp() {
 
 
+
+    // subject get 
+    var e = document.getElementById("subject");
+    var value = e.value;
+    var sub = e.options[e.selectedIndex].text;
+
+
+
     let final_present = 51 - absent;
 
 
@@ -1210,6 +1218,8 @@ function crwhatsapp() {
         + "*Section :*" + "           " + "Ai-(A)" + "%0a"
         + "*Batch :*" + "              " + "2023" + "%0a"
         + "*Department :*" + "   " + "DCS" + "%0a"
+        + "*Subject :*" + " " + sub + "%0a"
+        + "         " + "%0a"
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
@@ -1293,6 +1303,14 @@ function crwhatsapp() {
 function grwhatsapp() {
 
 
+
+    // subject get 
+    var e = document.getElementById("subject");
+    var value = e.value;
+    var sub = e.options[e.selectedIndex].text;
+
+
+
     let final_present = 51 - absent;
 
 
@@ -1307,6 +1325,8 @@ function grwhatsapp() {
         + "*Section :*" + "           " + "Ai-(A)" + "%0a"
         + "*Batch :*" + "              " + "2023" + "%0a"
         + "*Department :*" + "   " + "DCS" + "%0a"
+        + "*Subject :*" + " " + sub + "%0a"
+        + "         " + "%0a"
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
